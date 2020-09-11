@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><b> Проголосуйте за найкращого футболіста сезону 2019/2020</b></p>
+    <img src="img/trophy" alt="кубок кращому футболістуза версією FIFA">
+    <main>
+         <form action="https://formspree.io/mzbjnlgr" method="post">
+            <p>Виберіть футболіста:</p>
+                <label>
+                    <input type="checkbox" name="vechical" value="Messi">Ліонель Мессі
+                </label>
+                <label>
+                    <input type="checkbox" name="vechical" value="Ronaldo">Кріштіано Роналду
+                </label>
+                <label>
+                    <input type="checkbox" name="vechical" value="Levandovski">Роберт Левандовскі
+                </label><br>
+            <p><b> Результат буде відправлений на e-mail,заповніть форму:</p> 
+                <label>Прізвище та імя користувача: </br>
+                    <input type="text" placeholder="Name" name="name" required>
+                </label><br> 
+                <label>Улюблений гравець та команда: </br>
+                    <input type="text" placeholder="Phone" name="phone" required>
+                </label><br>   
+                <label>Введіть адресу: </br>
+                    <input type="email" placeholder="Email" name="email" required>
+                </label><br>
+                Выберите пол:
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label> 
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>  
+                <label>
+                    <input type="radio" name="gender" value="other">Other
+                </label><br>     
+                <label>
+                    <input type="submit" name="submit" value="Send">
+                </label>        
+         </form>
+    
+</body>
+</html>
